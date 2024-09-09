@@ -143,3 +143,30 @@ nav{
     max-width: 600px;
     margin: auto;
  }
+
+ section .header {
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+ }
+
+ .features{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+
+ }
+
+ .features .card{
+    background-color: #27272a;
+    border: 2px solid transparent;
+    padding: 1rem;
+    border-radius: 15px;
+    transition: all 0.3 ease;
+ }
+
+ 
